@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onlayn Kod Muharriri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Onlayn Kod Muharriri</h1>
+
+        <div class="editor-container">
+            <div class="editor">
+                <h3>HTML</h3>
+                <textarea id="html-code" placeholder="HTML kodini kiriting..."></textarea>
+            </div>
+            <div class="editor">
+                <h3>CSS</h3>
+                <textarea id="css-code" placeholder="CSS kodini kiriting..."></textarea>
+            </div>
+            <div class="editor">
+                <h3>JavaScript</h3>
+                <textarea id="js-code" placeholder="JavaScript kodini kiriting..."></textarea>
+            </div>
+        </div>
+
+        <button id="runBtn">Kodni ishga tushurish</button>
+
+        <div class="output-container">
+            <h3 class="output-title">Natija</h3>
+            <iframe id="output" class="output"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
